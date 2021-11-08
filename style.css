@@ -1,0 +1,16 @@
+* {
+    font-family: Zen Kaku Gothic Antique, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo:hover {
+    
+    filter:brightness(110%); /*adds hover animation*/
+}
+#logo {
+    filter:brightness(100%);
+    transition:0.3s;
+}

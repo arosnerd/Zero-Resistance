@@ -1,0 +1,36 @@
+body {
+    padding:0;
+    margin:0;
+    color: #2d363a
+}
+#Charge {
+    display:flex;
+}
+.animation {
+    flex:60%;
+    position:relative;
+    overflow-x:hidden;
+}
+.instruction {
+    flex:40%;
+    padding: 1%;
+}
+.section-title {
+    font-size: larger;
+}
+.river-img {
+}
+.particle {
+    border-radius: 50%;
+    height:15px;
+    background-color:cornflowerblue;
+    width:15px;
+    position:absolute;
+    top:45%;
+    animation:particle 4s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes particle {
+    from {margin-right:110%}
+    to {margin-left:110%;}
+}
